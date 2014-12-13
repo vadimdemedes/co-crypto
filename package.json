@@ -1,0 +1,25 @@
+{
+  "name": "co-crypto",
+  "version": "0.9.0",
+  "description": "Thunkified crypto module",
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/vdemedes/co-crypto.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/vdemedes/co-crypto/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "mocha-generators": "^1.0.0"
+  },
+  "dependencies": {
+    "thunkify": "^2.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony"
+  }
+}
