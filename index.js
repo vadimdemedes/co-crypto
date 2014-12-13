@@ -16,7 +16,14 @@ var methods = [
   'pseudoRandomBytes'
 ];
 
+var ignore = [
+  'createCredentials',
+  'Credentials'
+];
+
 Object.keys(crypto).forEach(function (property) {
+  if (ignore.indexOf(property) > -1) return;
+  
   exports[property] = crypto[property];
 });
 
