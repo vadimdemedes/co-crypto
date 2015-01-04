@@ -2,6 +2,8 @@
 
 Thunkified crypto module.
 
+[![Circle CI](https://circleci.com/gh/vdemedes/co-crypto.svg?style=svg)](https://circleci.com/gh/vdemedes/co-crypto)
+
 ## Installation
 
 ```
